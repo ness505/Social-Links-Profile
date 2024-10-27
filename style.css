@@ -52,7 +52,7 @@ body
     border-radius: 10px;
 
     /* position */
-    padding-top: 35px;
+    padding-top: 30px;
     padding-bottom: 30px;
     width: 380px;
     display: flex;
@@ -75,7 +75,8 @@ body
     color: hsl(0, 0%, 100%);
     font-size: 25px;
     font-weight: 500;
-    margin-bottom:10px ;
+    margin-bottom:8px ;
+    margin-top: 20px;
 }
 
 /* Location */
@@ -90,7 +91,8 @@ body
     color:  hsl(0, 0%, 100%);
     font-size: 14px;
     margin-bottom: 15px;
-    margin-top: 20px;
+    margin-top: 25px;
+    font-weight: 400;
 }
 
 /* LINK BOXES */
@@ -105,7 +107,7 @@ body
     text-align: center;
     color: white;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
 
     display: flex;
     flex-direction: column;
@@ -116,7 +118,7 @@ body
     background-color: hsl(75, 94%, 57%);
     color: black;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /* attribution */
