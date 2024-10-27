@@ -1,0 +1,134 @@
+/* External Fonts */
+@font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 800; /* Peso para ExtraBold */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* Peso para SemiBold */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal; /* Puedes ajustar el peso si es necesario */
+    font-style: italic; /* Definido como cursiva */
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 100 900; /* Soporte para pesos variables */
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    font-weight: 100 900; /* Soporte para pesos variables */
+    font-style: normal;
+  }
+  
+
+body
+{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/*  BOX  */
+.GreyBox
+{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+
+    /* position */
+    padding-top: 35px;
+    padding-bottom: 30px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*font*/
+    text-align: center;
+    font-family: 'Inter';
+   
+}
+/* Image */
+.GreyBox img{
+    border-radius: 100%;
+    width: 90px;
+}
+
+/* Name */
+.GreyBox h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom:10px ;
+}
+
+/* Location */
+.GreyBox h2{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 0px;
+}
+
+.GreyBox p{
+    color:  hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+/* LINK BOXES */
+.linkBox{
+    background-color: hsl(0, 0%, 20%);
+    width: 300px;
+    height: 45px;
+    margin: 8px;
+    border-radius: 10px;
+
+    /* font */
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.linkBox:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* attribution */
+.attribution
+{
+    position: absolute;
+    bottom: 10px;
+    font-size: 11px; 
+    text-align: center;
+    color: white;
+    
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
