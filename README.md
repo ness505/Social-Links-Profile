@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Solution](https://www.frontendmentor.io/solutions/social-links-profile-tKmcXWp974)
-- Live Site URL: [Social Links Profile](http://127.0.0.1:3000/index.html)
+- Live Site URL: [Social Links Profile](https://ness505.github.io/Social-Links-Profile/)
 
 ## My process
 
